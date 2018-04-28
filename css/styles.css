@@ -1,0 +1,58 @@
+header {
+          background: aqua;
+          color: DarkSlateGray;
+          padding: 1px;
+          text-align: center;
+
+}
+body{
+  font-size: 20px;
+  font-family: inherit;
+}
+#userform{
+  padding:20px;
+}
+#usertextbox{
+  height: 30px;
+  width:30%;
+  font-size: 23px;
+  padding-left: 10px;
+}
+#userbutton{
+  height:37px;
+  width:5%;
+  text-align: center;
+  font-size: 23px;
+}
+
+
+table {
+
+    border-collapse: collapse;
+    font-size: 16px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+ th, td {
+    /*text-align: center;*/
+    border: 1px solid black;
+    height:40px;
+    text-align: center;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+#userimage, #username{
+  padding-left: 20px;
+  color:red;
+}
+#loader {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: 150px;
+  margin-left: 40%;
+  /*background-color: pink;*/
+}
